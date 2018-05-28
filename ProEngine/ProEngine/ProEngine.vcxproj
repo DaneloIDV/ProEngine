@@ -170,6 +170,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="proMath.h" />
     <ClInclude Include="proDefines.h" />
     <ClInclude Include="proFwdDecl.h" />
     <ClInclude Include="proPrerequisitesUtilities.h" />

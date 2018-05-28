@@ -16,6 +16,9 @@
     <Filter Include="ProUtilities">
       <UniqueIdentifier>{0f672000-c91f-4e1b-96f3-8a836862cb66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ProMath">
+      <UniqueIdentifier>{47292048-7499-4f7d-b3db-d9b2602a5512}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="proDefines.h">
@@ -35,6 +38,9 @@
     </ClInclude>
     <ClInclude Include="proPrerequisitesUtilities.h">
       <Filter>ProUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proMath.h">
+      <Filter>ProMath</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
