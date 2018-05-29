@@ -29,6 +29,16 @@ namespace proE {
 
   // @class QWord
 
-  
+#if PRO_COMPILER == PRO_COMPILER_MSVC
+    using WCHAR = wchar_t;
+#else 
+    using WCHAR = unsigned short;
+#endif
+  using ANSICHAR = char;
+  using UNICHAR = WCHAR;
+  // Memory Byte Type
+  using BYTE_T = uint8;
+  //SIZE_T is an architecture dependant data type
+  using SIZE_T = size_t;
 
 }

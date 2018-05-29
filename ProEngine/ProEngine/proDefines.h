@@ -24,6 +24,11 @@
 
 #define PRO_ENDIAN PRO_ENDIAN_LITTLE // Actual Endian type
 
+#define PRO_LIB_STL 0 //Standard Template Library
+#define PRO_LIB_EASTL 1 //Electronic Arts Standard Template Library
+
+#define PRO_LIB_USING PRO_LIB_STL //Which Library we are using
+
 #define PRO_VERSION_MAJOR 0  // Engine Version Mayor Value
 #define PRO_VERSION_MINOR 1  // Engine Version Minor Value
 #define PRO_VERSION_PATCH 0  // Engine Version Patch Value
