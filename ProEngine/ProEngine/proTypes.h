@@ -22,7 +22,7 @@ namespace proE {
 
   // Basic Signed types
 
-  using int8 = int8_t;
+  using int8  = int8_t;
   using int16 = int16_t;
   using int32 = int32_t;
   using int64 = int64_t;
@@ -30,9 +30,15 @@ namespace proE {
   // @class QWord
 
 #if PRO_COMPILER == PRO_COMPILER_MSVC
+<<<<<<< HEAD
     using WCHAR = wchar_t;
 #else 
     using WCHAR = unsigned short;
+=======
+  using WCHAR = wchar_t;
+#else  
+  using WCHAR = unsigned short;
+>>>>>>> edcc2e013d18047535ffeb7599dc357a47993e19
 #endif
   using ANSICHAR = char;
   using UNICHAR = WCHAR;
