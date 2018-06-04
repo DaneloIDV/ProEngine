@@ -1,1 +1,6 @@
+./configure && make && make test
 language: C++
+compiler:
+  - clang
+  - gcc
+install: true
