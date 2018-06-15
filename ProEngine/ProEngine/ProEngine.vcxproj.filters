@@ -56,9 +56,6 @@
     <ClCompile Include="CVector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="proMath.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CVector3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

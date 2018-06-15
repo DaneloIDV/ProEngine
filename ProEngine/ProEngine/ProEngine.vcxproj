@@ -183,7 +183,6 @@
   <ItemGroup>
     <ClCompile Include="CVector2D.cpp" />
     <ClCompile Include="CVector3D.cpp" />
-    <ClCompile Include="proMath.cpp" />
     <ClCompile Include="Temporal.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
